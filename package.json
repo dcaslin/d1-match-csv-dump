@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/index.ts",
-    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "exec": "node build/index.js",
+    "once": "npm run build && npm run exec",
     "build": "tsc -p tsconfig.json",
+    "dist": "tsc -p tsconfig.json -outDir dist --sourceMap false",
     "clean": "rm -rf dist build",
     "ts-node": "ts-node",
     "test": "echo \"Error: no test specified\" && exit 1"

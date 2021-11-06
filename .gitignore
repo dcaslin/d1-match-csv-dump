@@ -1,7 +1,6 @@
 /node_modules/
 /build/
 /lib/
-/dist/
 /docs/
 .idea/*
 
@@ -9,3 +8,5 @@
 coverage
 *.log
 .env
+matches.csv
+matches.json
