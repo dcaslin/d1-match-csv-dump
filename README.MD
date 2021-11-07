@@ -1,4 +1,4 @@
-# d1-pvp-csv-dump
+# d1-match-csv-dump
 
 This is a simple Node/Typescript based command line program for downloading a CSV (or JSON) report of every PVE game you played in Destiny 1.
 

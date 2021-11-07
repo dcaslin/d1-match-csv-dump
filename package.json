@@ -1,7 +1,7 @@
 {
-  "name": "d1-pvp-csv-dump",
+  "name": "d1-match-csv-dump",
   "version": "1.0.0",
-  "description": "Dump Destiny 1 PVP reports via Node command line",
+  "description": "Dump Destiny 1 match reports (currently just PVE) via Node command line",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/index.ts",

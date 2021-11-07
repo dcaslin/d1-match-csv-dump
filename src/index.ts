@@ -83,7 +83,7 @@ async function run() {
     for (const charData of data.characters) {
         const characterId = charData.characterBase.characterId;        
         const className = cache.Class[charData.characterBase.classHash].className;
-        console.log(`Fetching PVP matches for ${className}`);
+        console.log(`Fetching matches for ${className}`);
         console.log(`${characterId} ${className}`);
 
         // http://www.bungie.net/Platform/Destiny/Stats/ActivityHistory/1/4611686018434964640/2305843009219816265/?count=100&mode=AllPvE 
